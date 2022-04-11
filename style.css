@@ -1,0 +1,114 @@
+body{
+    background-image:url(./images/3671f96df9505e4f00b2956a536549f5.jpg);
+    overflow: hidden;
+}
+
+
+#game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0px auto;
+
+}
+
+.card {
+    margin: 6px;
+    padding: 30px;
+    width: 75px;
+    text-align: center;
+    border: 1.5px solid #F6DC23;
+    font-size: 48px;
+    cursor: pointer;
+    background: #F3E8CA;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 10px 10px 2px 1px rgba(94,35,0);
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background: #F3E8CA;
+    border-radius: 30px;
+    box-shadow: 10px 10px 2px 1px rgba(94,35,0);
+}
+
+.card:hover {
+    background-color: #F3E8CA;
+}
+
+.card.visible::after {
+    content: '';
+    display: none;
+}
+h1{
+  margin: 55px;
+    user-select: none;
+    -webkit-user-drag: none;
+    font-size: 8rem;
+  text-align: center;
+height:10vh;
+line-height: 0vh;
+  color: #F3E8CA;
+  background: none;
+     font-family: 'Niconne', cursive;
+  font-weight: 700;
+text-shadow: 5px 5px 0px #F6DC23, 
+            10px 10px 0px #F6DC23, 
+            15px 15px 0px #F6DC23, 
+            20px 20px 0px #EE8819, 
+            25px 25px 0px #EE8819, 
+            30px 30px 0px #EE8819, 
+            35px 35px 0px #6B2E01, 
+            40px 40px 0px #6B2E01, 
+            45px 45px 0px #6B2E01;
+}
+h6{
+    user-select: none;
+    -webkit-user-drag: none;
+    font-size: 3rem;
+  text-align: center;
+height:10vh;
+line-height: 0vh;
+  color: #F3E8CA;
+  background: none;
+     font-family: 'Niconne', cursive;
+  font-weight: 700;
+text-shadow: 5px 5px 0px #F6DC23, 
+            10px 10px 0px #F6DC23, 
+            10px 10px 0px #F6DC23, 
+            20px 20px 0px #EE8819, 
+            20px 20px 0px #EE8819, 
+            20px 20px 0px #EE8819, 
+            35px 35px 0px #6B2E01, 
+            40px 40px 0px #6B2E01, 
+            40px 40px 0px #6B2E01;
+}
+button{
+  align-items: center;
+  border: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  font-size: 4rem;
+  text-align: center;
+  height:10vh;
+  line-height: 0vh;
+  color: #F3E8CA;
+  background: none;
+  font-family: 'Niconne', cursive;
+  font-weight: 700;
+  text-shadow: 5px 5px 0px #F6DC23, 
+          5px 5px 0px #F6DC23, 
+          15px 15px 0px #F6DC23, 
+          15px 15px 0px #EE8819, 
+          25px 25px 0px #EE8819, 
+          25px 25px 0px #EE8819, 
+          35px 35px 0px #6B2E01, 
+          35px 35px 0px #6B2E01, 
+          35px 35px 0px #6B2E01;
+}
